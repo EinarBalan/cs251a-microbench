@@ -1,8 +1,8 @@
-OPT ?= -O3
+OPT ?= -O1
 
 CFLAGS   = -std=gnu11 $(OPT) -Wall -Wextra -Wpedantic -Wstrict-aliasing -static
 
-EXEC=lfsr merge mm sieve spmv
+EXEC=lfsr merge mm sieve spmv pc fpt it mb cache_conflict
 
 all: $(EXEC)
 
