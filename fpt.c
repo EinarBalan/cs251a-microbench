@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-#define N 1000000
+#define N 100000
 
 int main() {
     volatile double a = 1.0;

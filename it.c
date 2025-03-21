@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <time.h>
 
-#define N 1000000UL
+#define N 100000UL
 
 int main() {
     volatile long a = 1;
